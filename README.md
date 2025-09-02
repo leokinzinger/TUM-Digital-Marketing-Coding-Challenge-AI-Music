@@ -1,18 +1,17 @@
 # Coding Task – AI & Music  
 
 Welcome to the coding task for the **Chair of Digital Marketing, TUM**.  
+
 The goal is to give you a small but realistic impression of the kind of projects we work on (AI, data pipelines, music/audio) and to let us see how you approach such tasks.  
 
 This is not only for us to test your skills. It’s also an opportunity for you to see if you enjoy this type of work.  
-
----
 
 ## Task Overview  
 
 You will build a small pipeline with **four steps**:  
 
-**Setup**
-   - Fork the repository and make it private
+0. **Setup**
+   - Fork the repository and make it private.
 
 1. **Generate 30 audio tracks**  
    - Use a model of your choice on [Replicate](https://replicate.com/) via their **Python SDK (API)**.  
@@ -45,17 +44,14 @@ You will build a small pipeline with **four steps**:
 **Submit your challenge**
    - Commit and push all the files to your private fork.
    - Invite `leonard.kinzinger@tum.de` and `benedikt.roder@tum.de` to the repository.
+   - Respond to the coding task email and tell us how long it took you to complete the task and how difficult you (honestly) found it.
    - That’s it! :) Thank you for taking the time! We really appreciate the effort you put in here.
-
----
 
 ## About Replicate  
 
 Replicate is a platform that hosts many state-of-the-art AI models across different modalities. All models can be accessed in a unified way via the **Replicate Python SDK**, which makes it easy to experiment with different approaches.  
 
 We have sent you an **individual Replicate API key** in the coding task email. Your Replicate API key has a budget of **10 USD**. You can use this freely for this coding task.  
-
----
 
 ## Requirements  
 
@@ -67,8 +63,6 @@ We have sent you an **individual Replicate API key** in the coding task email. Y
 
 We encourage you to use coding assistants. Just remember that you are responsible for the outputs.  
 
----
-
 ## What we will look at  
 
 - **Correctness:** Does your pipeline run? Are audio files, snippets, and features saved?  
@@ -76,8 +70,6 @@ We encourage you to use coding assistants. Just remember that you are responsibl
 - **Reproducibility:** Clear setup, requirements, .env handling.  
 - **Documentation:** A clear README covering your choices.  
 - **Creativity:** Interesting prompts, thoughtful features or alternative snippet ideas.  
-
----
 
 ## Getting Started  
 
