@@ -1,6 +1,6 @@
 # Coding Task – AI & Music  
 
-Welcome to the coding task for the **Chair of Digital Marketing, TUM**.  
+Welcome to the coding task for the **Professorship of Digital Marketing, TUM**.  
 
 The goal is to give you a small but realistic impression of the kind of projects we work on (AI, data pipelines, music/audio) and to let us see how you approach such tasks.  
 
