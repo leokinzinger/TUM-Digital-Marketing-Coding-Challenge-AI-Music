@@ -6,12 +6,24 @@ The goal is to give you a small but realistic impression of the kind of projects
 
 This is not only for us to test your skills. It’s also an opportunity for you to see if you enjoy this type of work.  
 
+## Important Update
+
+A student pointed out that you cannot change the visibility of a forked repository on GitHub.
+Therefore, please do not fork this repository.
+
+Instead:
+
+1. Create a new, private repository in your GitHub account.
+2. Invite us to your private repository:
+   - `leonard.kinzinger@tum.de`
+   - `benedikt.roder@tum.de`
+
 ## Task Overview  
 
 You will build a small pipeline with **four steps**:  
 
 0. **Setup**
-   - Fork the repository and make it private.
+   - Create a new and private repository for this task.
 
 1. **Generate 30 audio tracks**  
    - Use a model of your choice on [Replicate](https://replicate.com/) via their **Python SDK (API)**.  
@@ -42,7 +54,7 @@ You will build a small pipeline with **four steps**:
    - Mention at least one alternative model in step 1, 3 additional audio features for step 2 and one alternative audio thumbnailing method in step 3.  
 
 **Submit your challenge**
-   - Commit and push all the files to your private fork.
+   - Commit and push all the files to your private repository.
    - Invite `leonard.kinzinger@tum.de` and `benedikt.roder@tum.de` to the repository.
    - Respond to the coding task email and tell us how long it took you to complete the task and how difficult you (honestly) found it.
    - That’s it! :) Thank you for taking the time! We really appreciate the effort you put in here.
@@ -73,41 +85,19 @@ We encourage you to use coding assistants. Just remember that you are responsibl
 
 ## Getting Started  
 
-1. Fork this repository and make it private.  
+1. Create a new repository and make it private.  
 
-2. Clone your fork to your local machine:  
-   ```bash
-   git clone https://github.com/<your-username>/<your-private-fork>.git
-   cd <your-private-fork>
-   ```
-
-3. Create a virtual environment:
+2. Create a virtual environment:
    ```bash
    python -m venv .venv
    source .venv/bin/activate     # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-4. Add your Replicate API key to .env:
+3. Add your Replicate API key as an environment variable:
    ```bash
-   REPLICATE_API_TOKEN=your_api_key_here
+   export REPLICATE_API_TOKEN=<your token>
    ```
-
-5. Run your pipeline scripts or notebooks.
-   - You can authenticate with Replicate in two ways:
-      - Option A – via environment variable:
-      ```bash
-      export REPLICATE_API_TOKEN=<your token>
-      ```
-      - Option B – via Python client:
-      ```
-      import os
-      from replicate.client import Client
-
-      replicate = Client(
-          api_token=os.environ["REPLICATE_API_TOKEN"]
-      )
-      ```
 
 That’s it and have fun! This task is about seeing how you work, not about perfection.
 
